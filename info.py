@@ -83,6 +83,6 @@ DOWNLOAD_TEXT_URL = "https://TinyFy.in/ref/Kushal"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://t.me/TG_LINKS_CHANNEL"
+CAPTION_BUTTON_URL = "https://t.me/sunriseseditsoffical6"
 
    # Auto Delete For Bot Sending Files #
