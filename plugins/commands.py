@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/TG_UPDATES1')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/@Sunrises24updates')
             ],
             [
-                InlineKeyboardButton('⚡ CHANNEL ⚡', url=f"https://t.me/TG_LINKS_CHANNEL"),
+                InlineKeyboardButton('⚡ CHANNEL ⚡', url=f"https://t.me/sunriseseditsoffical6"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ CHANNEL ⚡', url='https://t.me/TG_LINKS_CHANNEL'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/TG_UPDATES1')
+            InlineKeyboardButton('⚡ CHANNEL ⚡', url='https://t.me/Sunrises24updates'),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/sunriseseditsoffical6')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ CHANNEL ⚡', url='https://t.me/TG_LINKS_CHANNEL'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/TG_UPDATES1')
+            InlineKeyboardButton('⚡ CHANNEL ⚡', url='https://t.me/Sunrises24updates'),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/sunriseseditsoffical6')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
