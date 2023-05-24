@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/TG_UPDATES1')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/c/1863569504/16')
         ]
     )
 
@@ -164,7 +164,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌')
+            k = await query.message.edit('𝐓𝐇𝐈𝐒 𝐌𝐎𝐕𝐈𝐄 𝐈𝐒 𝐍𝐎𝐓 𝐘𝐄𝐓 𝐑𝐄𝐋𝐄𝐀𝐒𝐄𝐃 𝐎𝐑 𝐀𝐃𝐃𝐄𝐃 𝐓𝐎 𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 💌')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -273,7 +273,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
+        return await query.answer('𝐏𝐋𝐄𝐀𝐒𝐄 𝐒𝐇𝐀𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🥺')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -296,7 +296,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
+        return await query.answer('𝐏𝐋𝐄𝐀𝐒𝐄 𝐒𝐇𝐀𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🥺')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -314,7 +314,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
+        return await query.answer('𝐏𝐋𝐄𝐀𝐒𝐄 𝐒𝐇𝐀𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🥺')
     elif query.data == "backcb":
         await query.answer()
 
@@ -325,7 +325,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
+            return await query.answer('𝐏𝐋𝐄𝐀𝐒𝐄 𝐒𝐇𝐀𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🥺')
         buttons = []
         for groupid in groupids:
             try:
@@ -434,8 +434,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('✨ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url='https://t.me/TG_LINKS_CHANNEL'),
-            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/TG_UPDATES1')
+            InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url='https://t.me/sunriseseditsoffical6'),
+            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/Sunrises_Bot_discussion_Group')
         ], [
             InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', callback_data='help'),
             InlineKeyboardButton('🌟 𝐀𝐁𝐎𝐔𝐓 🌟', callback_data='about')
