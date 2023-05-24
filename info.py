@@ -79,7 +79,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://shorturllink.in/ref/sunriseseditsoffical24"
+DOWNLOAD_TEXT_URL = "https://kpslink.in/ref/111249595827617570773"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"
